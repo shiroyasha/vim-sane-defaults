@@ -36,10 +36,6 @@ set iskeyword+=_,$,@,%,#
 set encoding=utf-8
 set termencoding=utf-8
 
-" Define space as map leader"
-let mapleader = ' '
-let g:mapleader = ' '
-
 " Disable all bells and whistles
 set noerrorbells visualbell t_vb=
 
