@@ -32,9 +32,11 @@ set shortmess=atToOI
 " Keywords are use to searching and recognized with many commands
 set iskeyword+=_,$,@,%,#
 
-" Set default encoding to utf-8
-set encoding=utf-8
-set termencoding=utf-8
+if !has('nvim')
+  " Set default encoding to utf-8
+  set encoding=utf-8
+  set termencoding=utf-8
+endif
 
 " Disable all bells and whistles
 set noerrorbells visualbell t_vb=
